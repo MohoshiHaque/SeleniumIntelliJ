@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/USER/IdeaProjects/SeleniumBasic">
+        <classes>
+            <class name="Alert.TestAlert">
+                <methods>
+                    <include name="TestAlert"/>
+                </methods>
+            </class>
+            <class name="Assertion.TestHardAssertion">
+                <methods>
+                    <include name="assertEqualTest"/>
+                    <include name="assertNotEqualTest"/>
+                    <include name="assertTrue"/>
+                    <include name="assertFalse"/>
+                </methods>
+            </class>
+            <class name="Assertion.TestSoftAssertion">
+                <methods>
+                    <include name="loginWithSoftAssert"/>
+                </methods>
+            </class>
+            <class name="Locators.TestLocator">
+                <methods>
+                    <include name="LocatorTest"/>
+                    <include name="xpathTest"/>
+                    <include name="cssTest"/>
+                </methods>
+            </class>
+            <class name="Synchronization.TestWaitExplicit">
+                <methods>
+                    <include name="loginWithExplicitWait"/>
+                    <include name="loginHybridWait"/>
+                </methods>
+            </class>
+            <class name="Synchronization.TestWaitFluentDemo">
+                <methods>
+                    <include name="FluentWait"/>
+                </methods>
+            </class>
+            <class name="Synchronization.TestWaitImplicit">
+                <methods>
+                    <include name="implicitWait"/>
+                </methods>
+            </class>
+            <class name="WebElements.TestWebElementDropDown">
+                <methods>
+                    <include name="StaticDropwDown"/>
+                    <include name="LoopDropDown"/>
+                    <include name="DynamicDropDown"/>
+                    <include name="AutoSuggestionDropdown"/>
+                </methods>
+            </class>
+            <class name="WebElements.TestWebElementFileupload">
+                <methods>
+                    <include name="fileupload"/>
+                </methods>
+            </class>
+            <class name="WebElements.TestWebElementRadioButton">
+                <methods>
+                    <include name="radiobutton"/>
+                </methods>
+            </class>
+            <class name="WindowsNavigation.TestClassWindows">
+                <methods>
+                    <include name="setup"/>
+                    <include name="setupTypeTab"/>
+                    <include name="setupTypeWindow"/>
+                </methods>
+            </class>
+            <class name="Synchronization.TestWaitFluent">
+                <methods>
+                    <include name="FluentWait"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
