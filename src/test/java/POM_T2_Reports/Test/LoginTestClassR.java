@@ -29,7 +29,7 @@ public class LoginTestClassR extends BaseClassR {
         ExtentSparkReporter reporter = new ExtentSparkReporter(path);
 
         reporter.config().setReportName("Swag Labs Automation Report");
-        reporter.config().setDocumentTitle("Test Results");
+        reporter.config().setDocumentTitle("Test Results:");
         extent = new ExtentReports();
 
         extent.attachReporter(reporter);
