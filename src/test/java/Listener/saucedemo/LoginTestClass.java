@@ -28,7 +28,7 @@ public class LoginTestClass extends BaseClass {
 
         String actualErrorMessage = loginPage.getErrorMessage();
         String expectedErrorMessage = "Epic sadface:: Username and password do not match any user in this service";
-        Assert.assertEquals(actualErrorMessage, expectedErrorMessage, "Error message mismatch for invalid password.");
+        Assert.assertEquals(actualErrorMessage, expectedErrorMessage, "Error message mismatch for invalid password. ");
         Thread.sleep(3000);
 
     }
